@@ -139,6 +139,14 @@
             </div>
         </div>
         <div class="col-md-12">
+                    <div class="form-group">
+                        <label class="control-label col-md-4">${span18n['createca_test_field_desc']}</label>
+                        <div class="col-md-8">
+                            <form:textarea path="testTextField" cssStyle="resize: none" rows="4" cols="20" cssClass="form-control"/>
+                        </div>
+                    </div>
+                </div>
+        <div class="col-md-12">
             <div class="form-group">
                 <label class="control-label col-md-4">
                     ${span18n['createca_file_ref_ca']}

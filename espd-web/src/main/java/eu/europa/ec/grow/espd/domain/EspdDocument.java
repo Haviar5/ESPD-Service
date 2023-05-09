@@ -49,6 +49,7 @@ public class EspdDocument {
     private PartyImpl authority;
     private EconomicOperatorImpl economicOperator;
 
+    private String testTextField;
     private String ojsNumber;
     private String ngojNumber;
     private String procedureType;
